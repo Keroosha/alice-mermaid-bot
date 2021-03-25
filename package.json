@@ -1,0 +1,27 @@
+{
+  "name": "alice-mermaid-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run dist && node dist/index.js",
+    "dist": "tsc --build --clean && tsc --build"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.168",
+    "@types/node": "14.14.36",
+    "prettier": "2.2.1",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3",
+    "@types/sanitize-html": "1.27.1"
+  },
+  "dependencies": {
+    "fastify": "3.14.0",
+    "lodash": "4.17.21",
+    "telegraf": "4.3.0",
+    "sanitize-html": "2.3.3", 
+    "node-html-to-image": "3.1.0"
+  },
+  "author": "Keroosha",
+  "license": "MIT"
+}
